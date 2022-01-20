@@ -5,7 +5,7 @@
 	<AutoShowState>Auto</AutoShowState>
 	<ReportResultViewMode>Auto</ReportResultViewMode>
 	<ViewModeApplicationOnSetReportResult>Auto</ViewModeApplicationOnSetReportResult>
-	<AutoCommandBar name="" id="-1">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Attributes>
@@ -16,4 +16,21 @@
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="СказатьПривет" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сказать привет</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сказать привет</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СказатьПривет</Action>
+		</Command>
+	</Commands>
 </Form>
