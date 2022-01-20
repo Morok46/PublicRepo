@@ -8,12 +8,33 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
+	<ChildItems>
+		<Button name="СказатьПривет" id="1">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.СказатьПривет</CommandName>
+			<ExtendedTooltip name="СказатьПриветРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<InputField name="Реквизит1" id="3">
+			<DataPath>Реквизит1</DataPath>
+			<ContextMenu name="Реквизит1КонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="Реквизит1РасширеннаяПодсказка" id="5"/>
+		</InputField>
+	</ChildItems>
 	<Attributes>
 		<Attribute name="Отчет" id="1">
 			<Type>
 				<v8:Type>cfg:ExternalReportObject.ДомашнееЗадание41</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Реквизит1" id="2">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
 		</Attribute>
 	</Attributes>
 	<Commands>
